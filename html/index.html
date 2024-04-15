@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calorie Tracker</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <span>Calorie Tracker</span>
+    </nav>
+
+    <div class="main-content">
+      <input
+        type="number"
+        id="calorieGoalInput"
+        placeholder="Enter calorie goal"
+      />
+      <button id="submitGoalButton">Set Goal</button>
+      <h1>Today's Calorie Intake</h1>
+      <p id="totalCalories"></p>
+      <input type="text" id="foodNameInput" placeholder="Food name" />
+      <input type="number" id="foodCaloriesInput" placeholder="Calories" />
+      <button id="addButton">Add Food</button>
+
+      <div id="foodList"></div>
+    </div>
+
+    <div id="historySidebar">
+      <h2>History</h2>
+      <ul id="historyList"></ul>
+    </div>
+
+    <script src="../js/app.js"></script>
+  </body>
+</html>
